@@ -1,7 +1,8 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-    conatiner: {
+
+    container: {
         backgroundColor: '#fff',
         borderWidth: 1,
         borderRightColor: '#e6e6f0',
@@ -9,17 +10,24 @@ const styles = StyleSheet.create({
         marginBottom: 16,
         overflow: 'hidden'
     },
+
     profile: {
         flexDirection: 'row',
         alignItems: 'center',
         padding: 24,
     },
+
     avatar: {
         width: 64,
         height: 64,
         borderRadius: 32,
         backgroundColor: '#eee'
     },
+
+    profileInfo: {
+        marginLeft: 16,
+    },
+
     name: {
         fontFamily: 'Archivo_700Bold',
         color: '#32264d',
@@ -31,6 +39,7 @@ const styles = StyleSheet.create({
         fontSize: 12,
         marginTop: 4,
     },
+
     bio: {
         marginHorizontal: 24,
         fontFamily: 'Poppins_400Regular',
@@ -43,19 +52,22 @@ const styles = StyleSheet.create({
         backgroundColor: '#fafafc',
         padding: 24,
         alignItems: 'center',
-        marginTop: 24
+        marginTop: 24,
     },
+
     price: {
         fontFamily: 'Poppins_400Regular',
         color: '#646180',
         fontSize: 14,
     },
+
     priceValue: {
         fontFamily: 'Archivo_700Bold',
         color: '#8257e5',
         fontSize: 16,
         marginLeft: 16,
     },
+
     buttonsContainer: {
         flexDirection: 'row',
         marginTop: 16,
@@ -70,13 +82,14 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         marginRight: 8,
     },
+
     favorited: {
         backgroundColor: '#e33d3d',
     },
+
     contactButton: {
         backgroundColor: '#04d361',
         flex: 1,
-        width: 56,
         height: 56,
         borderRadius: 8,
         flexDirection: 'row',

@@ -51,8 +51,10 @@ function Landing() {
                     <Text style={styles.buttonText}>Estudar</Text>
                 </RectButton>
 
-                <RectButton  onPress={handleNavigateToGiveClassesPage} 
-                    style={[styles.button, styles.buttonSecondary]}>
+                <RectButton  
+                    onPress={handleNavigateToGiveClassesPage} 
+                    style={[styles.button, styles.buttonSecondary]}
+                >
                     <Image source={giveClassesIcon} />
 
                     <Text style={styles.buttonText}>Dar aulas</Text>
